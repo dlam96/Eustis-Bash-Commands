@@ -6,7 +6,7 @@ simple shell scripts to make life easier when working with UCF's Eustis server
 ex: bash auto-login.sh
 
 # IMPORTANT
-* replace username and password to use scripts properly
+* replace filename, username and password to use scripts properly
 * you must be connected to UCF's wifi or use a VPN (Cisco AnyConnect VPN cilent) if off-campus
 * If off-campus:
 - connect to: ucfvpn-1.vpn.ucf.edu
