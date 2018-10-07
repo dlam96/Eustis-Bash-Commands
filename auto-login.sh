@@ -1,1 +1,1 @@
-SSHPASS='Iloveunicorns1@' sshpass -e ssh -o StrictHostKeyChecking=no da591064@eustis.eecs.ucf.edu
+SSHPASS='password' sshpass -e ssh -o StrictHostKeyChecking=no username@eustis.eecs.ucf.edu
