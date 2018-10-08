@@ -1,16 +1,24 @@
 # Eustis-Bash-Commands
-simple shell scripts for UCF's Eustis server:
+Simple shell scripts for UCF's Eustis server:
+- VPN auto login
 - Eustis auto login
 - file upload (add -r for folder upload)
-- VPN auto login
 
 # How to use
-* Shell scripts: bash <script name>.sh
-> ex: bash auto-login.sh
-
 * Expect scripts: expect <script name>.exp
 > ex: expect vpn.exp
 
+Note:
+** Remove # on spawn bash ... line to combine VPN and Eustis auto login! **
+
+** VPN + Eustis scripts must be in _same_ directory **
+
+* Shell scripts: bash <script name>.sh
+> ex: bash auto-login.sh
+
+# To disconnect from Eustis
+> /opt/cisco/anyconnect/bin/vpn disconnect
+
 # IMPORTANT
-* replace username and password to use scripts properly
-* must have VPN (Cisco AnyConnect VPN cilent) already installed if using vpn.exp
+* Replace username and password to use scripts properly
+* Must have VPN (Cisco AnyConnect VPN cilent) already installed if using vpn.exp
