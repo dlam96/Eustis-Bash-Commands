@@ -9,9 +9,10 @@ Simple shell scripts for UCF's Eustis server:
 > ex: expect vpn.exp
 
 Note:
-** Remove # on spawn bash ... line to combine VPN and Eustis auto login! **
 
-** VPN + Eustis scripts must be in _same_ directory **
+Remove **#** on spawn bash ... line to combine VPN and Eustis auto login!
+
+**VPN + Eustis scripts must be in _same_ directory**
 
 * Shell scripts: bash <script name>.sh
 > ex: bash auto-login.sh
