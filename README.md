@@ -17,7 +17,7 @@ Remove **#** on spawn bash ... line to combine VPN and Eustis auto login!
 * Shell scripts: bash <script name>.sh
 > ex: bash auto-login.sh
 
-# To disconnect from Eustis
+# To disconnect from VPN
 > /opt/cisco/anyconnect/bin/vpn disconnect
 
 # IMPORTANT
