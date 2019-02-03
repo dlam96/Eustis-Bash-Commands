@@ -1,11 +1,12 @@
 #!/usr/bin/expect -f
 
+set timeout 1
 
 spawn "/opt/cisco/anyconnect/bin/vpn"
 expect "VPN>" { send "connect ucfvpn-1.vpn.ucf.edu\r" }
 expect "*Anyway*" {send "y\r"}
 expect "*trust*" {send "n\r"}
-expect "*student*" {send "1\r"}
+expect "*Students*" {send "1\r"}
 expect "*sername*" { send "username\r" }
 expect "*assword*" { send "password\r" }
 expect "*accept?*" { send "y\r" }
