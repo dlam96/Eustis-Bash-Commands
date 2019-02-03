@@ -4,6 +4,7 @@ Simple shell scripts for UCF's Eustis server:
 - Eustis auto login
 - file upload (add -r for folder upload)
 
+![gif](https://github.com/dlam96/GIFS/blob/master/script.gif)
 # How to use
 * Expect scripts: expect <script name>.exp
 > ex: expect vpn.exp
